@@ -1,6 +1,17 @@
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/pwoessner/pwtheming/blob/main/LICENSE)
+<h1 align="center">
+    PWTheming
+</h1>
 
-# PWTheming Swift Package
+<p align="center">
+    <a href="https://github.com/pwoessner/PWTheming/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-MIT-blue.svg">
+    </a>
+    <a href="https://github.com/pwoessner/PWTheming/actions/workflows/swift.yml">
+        <img src="https://github.com/pwoessner/PWTheming/actions/workflows/swift.yml/badge.svg?branch=main">
+    </a>
+    <img src="https://img.shields.io/badge/platform-iOS-lightgrey.svg">
+    <img src="https://img.shields.io/badge/Swift-5.7-F16D39.svg">
+</p>
 
 `PWTheming` is a Swift package that provides a simple way to apply different design themes to your iOS application. 
 With `PWTheming`, you can easily change the look and feel of your app by switching between different themes at runtime. 
