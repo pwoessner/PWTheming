@@ -9,7 +9,7 @@ open class PWThemeManager {
         self.currentTheme = PWAppleTheme()
     }
 
-    func set(theme: PWTheme) {
+    public func set(theme: PWTheme) {
         self.currentTheme = theme
     }
 }

@@ -54,6 +54,15 @@ public struct BackgroundColors {
     var primaryGrouped: Color
     var secondaryGrouped: Color
     var tertiaryGrouped: Color
+
+    public init(primary: Color, secondary: Color, tertiary: Color, primaryGrouped: Color, secondaryGrouped: Color, tertiaryGrouped: Color) {
+        self.primary = primary
+        self.secondary = secondary
+        self.tertiary = tertiary
+        self.primaryGrouped = primaryGrouped
+        self.secondaryGrouped = secondaryGrouped
+        self.tertiaryGrouped = tertiaryGrouped
+    }
 }
 
 public struct LabelColors {
@@ -62,6 +71,14 @@ public struct LabelColors {
     var tertiary: Color
     var quaternary: Color
     var placeholder: Color
+
+    public init(primary: Color, secondary: Color, tertiary: Color, quaternary: Color, placeholder: Color) {
+        self.primary = primary
+        self.secondary = secondary
+        self.tertiary = tertiary
+        self.quaternary = quaternary
+        self.placeholder = placeholder
+    }
 }
 
 public struct FillColors {
@@ -69,10 +86,23 @@ public struct FillColors {
     var secondary: Color
     var tertiary: Color
     var quaternary: Color
+
+    public init(primary: Color, secondary: Color, tertiary: Color, quaternary: Color) {
+        self.primary = primary
+        self.secondary = secondary
+        self.tertiary = tertiary
+        self.quaternary = quaternary
+    }
 }
 
 public struct SignatureColors {
     var accent: Color
     var primary: Color
     var secondary: Color
+
+    public init(accent: Color, primary: Color, secondary: Color) {
+        self.accent = accent
+        self.primary = primary
+        self.secondary = secondary
+    }
 }
